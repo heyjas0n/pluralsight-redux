@@ -44,8 +44,8 @@ class CoursesPage extends React.Component {
 }
 
 CoursesPage.propTypes = {
-  actions: PropTypes.array.isRequired,
-  createCourse: PropTypes.func.isRequired
+  courses: PropTypes.array.isRequired,
+  actions: PropTypes.object.isRequired
 };
 
 // what parts of state you want to expose to the store
