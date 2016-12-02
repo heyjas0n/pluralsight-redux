@@ -48,6 +48,7 @@ CoursesPage.propTypes = {
   actions: PropTypes.object.isRequired
 };
 
+// redux-connect stuff
 // what parts of state you want to expose to the store
 function mapStateToProps(state, ownProps) {
   return {
